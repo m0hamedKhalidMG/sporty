@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import '../index.css';
-import { jwtDecode } from 'jwt-decode';
 const sports = [
   { id: 1, name: 'تنس', nameEn: 'Tennis', icon: '🎾' },
   { id: 2, name: 'كرة الطائرة', nameEn: 'Volleyball', icon: '🏐' },
